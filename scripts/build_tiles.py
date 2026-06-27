@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 import numpy as np
-from tqdm import tqdm
+from tqdm.auto import tqdm
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
